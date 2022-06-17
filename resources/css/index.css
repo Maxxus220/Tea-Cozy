@@ -1,0 +1,140 @@
+* {
+    color: seashell;
+    font-family: Helvetica;
+    opacity: 1;
+    text-align: center;
+}
+
+.black {
+    background-color: black;
+}
+
+.flex {
+    display: flex;
+}
+
+.logo {
+    margin: 10px;
+    height: 50px;
+}
+
+.mission {
+    background-image: url("../images/img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto auto;
+    margin-top: 69px;
+}
+
+.mission_text {
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+}
+
+.mission_text h2 {
+    margin-bottom: 10px;
+}
+
+.mission_text h4 {
+    margin-top: 10px;
+}
+
+.pics {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pics div img {
+    margin-bottom: 10px;
+    width: 300px;
+    height: 200px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.pics div h4 {
+    margin-top: 10px;
+}
+
+.locations {
+    height: 500px;
+    width: 1200px;
+    background-image: url("../images/img-locations-background.jpg");
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+
+.locations h2 {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.locations div {
+    margin: 15px 20px;
+    width: 300px;
+    height: 300px;
+    line-height: 2.5;
+}
+
+.info {
+    height: 200px;
+}
+
+.info h2 {
+    margin-bottom: 35px;
+}
+
+.info h5 {
+    margin-bottom: 28px;
+}
+
+/* Used to offset self-links to adjust for fixed header*/
+.jump {
+    position: relative;
+    top: -69px;
+}
+
+footer {
+    margin-left: 20px;
+}
+
+footer h5 {
+    text-align: left;
+}
+
+body {
+    margin: 0 0;
+}
+
+header * {
+    opacity: 0.9;
+}
+
+header nav ul li {
+    display: inline-block;
+    font-size: 22px;
+    margin: 10px;
+    text-decoration: underline;
+}
+
+header nav {
+    margin-left: auto;
+}
+
+header {
+    height: 69px;
+    border: 1px solid seashell;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
