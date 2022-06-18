@@ -43,6 +43,11 @@
     margin-top: 10px;
 }
 
+.totm {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .pics {
     width: 1000px;
     margin-left: auto;
@@ -88,6 +93,8 @@
 
 .info {
     height: 200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .info h2 {
